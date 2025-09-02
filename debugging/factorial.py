@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import sys
 
 def factorial(n):
@@ -8,6 +8,5 @@ def factorial(n):
         n -= 1   # decrease n
     return result
 
-if __name__ == "__main__":
-    f = factorial(int(sys.argv[1]))
-    print(f)
+f = factorial(int(sys.argv[1]))
+print(f)
